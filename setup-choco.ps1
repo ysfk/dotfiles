@@ -17,7 +17,6 @@ Write-Host  "Intstalling minimal setup"
     oh-my-posh `
     microsoft-windows-terminal `
     notepadplusplus `
-    paint.net `
     powertoys `
     pwsh `
     sysinternals `
@@ -65,6 +64,7 @@ if ((Read-Host "Install other apps: (y/N)").ToLower() -eq 'y') {
         logitech-camera-settings `
         logitech-options `
         microsoft-teams `
+        paint.net `
         obs-studio `
         obs-virtualcam `
         -y
