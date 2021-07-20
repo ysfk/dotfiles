@@ -5,3 +5,6 @@ function dt { dotnet test $args }
 function dw { dotnet watch run $args }
 
 Set-Alias -Name g -Value git
+
+
+Set-Alias -Name k -Value kubectl
